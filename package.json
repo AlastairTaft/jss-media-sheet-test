@@ -1,0 +1,23 @@
+{
+  "name": "jss-media-sheet-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlastairTaft/jss-media-sheet-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlastairTaft/jss-media-sheet-test/issues"
+  },
+  "homepage": "https://github.com/AlastairTaft/jss-media-sheet-test#readme",
+  "dependencies": {
+    "babel-cli": "^6.8.0",
+    "jss": "^3.11.1"
+  }
+}
