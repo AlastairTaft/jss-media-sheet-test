@@ -2,7 +2,7 @@ var jss = require('jss')
 
 const styles = {
 	// This class does not seem to exist in the generated output unless I explicly
-	// give it some properties
+	// give it some properties even though it has a media query with properties below.
 	alpha: {
 		width: '500px',
 	},
@@ -24,7 +24,7 @@ const styles = {
 	},
 	'@media (min-width: 992px)': {
 		// This class ends up with it's own classname instead of being linked to
-		// the two above. This only seems
+		// the two above.
 		bravo: {
 	    width: '300px',
 		},
